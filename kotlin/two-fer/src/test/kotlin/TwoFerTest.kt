@@ -10,7 +10,6 @@ class TwoFerTest {
     }
 
     @Test
-    @Ignore
     fun aNameGiven() {
         assertEquals("One for Alice, one for me.", twofer("Alice"))
     }
